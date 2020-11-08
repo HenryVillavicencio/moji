@@ -34,6 +34,18 @@ p {
   font-weight: 400;
 }
 
+.title {
+  font-size: 3.4rem;
+  margin-top: 3.2rem;
+  margin-bottom: 1.2rem;
+  line-height: 3.6rem;
+  text-align: left;
+}
+
+.title strong {
+  color: var(--orange);
+}
+
 .hero-container {
   position: relative;
   display: flex;
@@ -41,7 +53,8 @@ p {
   align-items: center;
   min-width: 320px;
   height: 66.25vw;
-  max-height: 954px;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 .hero-image {
@@ -50,10 +63,16 @@ p {
   width: 100%;
   max-height: 100%;
   object-fit: cover;
+  max-height: 954px;
 }
 
 .hero-content {
   text-align: center;
+  width: 100%;
+}
+
+.hero-content img {
+  width: 40%;
 }
 
 .hero-content p {
@@ -83,27 +102,20 @@ p {
   margin: 0 16px;
 }
 
-.title {
-  font-size: 3.4rem;
-  margin-top: 3.2rem;
-  margin-bottom: 1.2rem;
-  line-height: 3.6rem;
-  text-align: left;
-}
-
-.title strong {
-  color: var(--orange);
-}
-
 .about-emojis {
   font-size: 3.4rem;
   text-align: center;
   margin-top: 1.2rem;
 }
 
+.why-container {
+  text-align: center;
+}
+
 .why-image {
   margin-top: 2.4rem;
   width: 100%;
+  max-width: 320px;
 }
 
 .build-details-tools {
@@ -123,7 +135,7 @@ p {
     var(--orange) 171.83%
   );
   height: 70px;
-  color: var(--white);
+  color: var(--secondary-black);
   display: flex;
   justify-content: center;
   align-items: center;
