@@ -24,10 +24,14 @@ main {
   min-width: 320px;
   max-width: 1440px;
   margin: 0 auto;
+}
+
+p {
   font-size: 1.6rem;
   line-height: 2.4rem;
   text-align: justify;
   letter-spacing: 0.05rem;
+  font-weight: 400;
 }
 
 .hero-container {
@@ -100,4 +104,30 @@ main {
 .why-image {
   margin-top: 2.4rem;
   width: 100%;
+}
+
+.build-details-tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.build-details-image {
+  margin: 2rem;
+}
+
+.footer {
+  background: linear-gradient(
+    180deg,
+    var(--yellow) 23.85%,
+    var(--orange) 171.83%
+  );
+  height: 70px;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p {
+  text-align: center;
 }
