@@ -24,6 +24,10 @@ main {
   min-width: 320px;
   max-width: 1440px;
   margin: 0 auto;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: justify;
+  letter-spacing: 0.05rem;
 }
 
 .hero-container {
@@ -69,4 +73,26 @@ main {
 .hero-content button:hover {
   background: var(--orange);
   color: var(--white);
+}
+
+.container {
+  margin: 0 16px;
+}
+
+.title {
+  font-size: 3.4rem;
+  margin-top: 3.2rem;
+  margin-bottom: 1.2rem;
+  line-height: 3.6rem;
+  text-align: left;
+}
+
+.title strong {
+  color: var(--orange);
+}
+
+.about-emojis {
+  font-size: 3.4rem;
+  text-align: center;
+  margin-top: 1.2rem;
 }
