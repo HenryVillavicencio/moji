@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./assets/css/base.css" rel="stylesheet" />
+    <link href="./assets/css/room-chat-styles.css" rel="stylesheet" />
+    <title>Chat</title>
+  </head>
+  <body>
+    <main>
+      <div class="chat-container">
+        <div class="chat-messages"></div>
+        <form class="chat-form">
+          <input name="message" class="chat-input" />
+        </form>
+      </div>
+      <div class="keyboard-container">
+        <div class="keyboard-emojis-options">
+          <ul>
+            <li onClick="onSelect('😀')" class="selected" id="😀">
+              <span role="img" aria-label="😀">😀</span>
+            </li>
+            <li onClick="onSelect('🐶')" id="🐶">
+              <span role="img" aria-label="🐶">🐶</span>
+            </li>
+            <li onClick="onSelect('🍏')" id="🍏">
+              <span role="img" aria-label="🍏">🍏</span>
+            </li>
+            <li onClick="onSelect('⚽')" id="⚽">
+              <span role="img" aria-label="⚽">⚽</span>
+            </li>
+            <li onClick="onSelect('🚗')" id="🚗">
+              <span role="img" aria-label="🚗">🚗</span>
+            </li>
+            <li onClick="onSelect('⌚')" id="⌚">
+              <span role="img" aria-label="⌚">⌚</span>
+            </li>
+            <li onClick="onSelect('☮')" id="☮">
+              <span role="img" aria-label="☮">☮</span>
+            </li>
+            <li onClick="onSelect('🏳')" id="🏳">
+              <span role="img" aria-label="🏳">🏳</span>
+            </li>
+          </ul>
+        </div>
+        <div class="keyboard-emojis" id="keyboard"></div>
+      </div>
+    </main>
+  </body>
+  <script src="./assets/js/index.js"></script>
+</html>

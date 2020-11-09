@@ -1,0 +1,27 @@
+:root {
+  --black: #212121;
+  --secondary-black: #2c2721;
+  --orange: #fe9201;
+  --yellow: #ffdb31;
+  --white: #fff;
+  --secondary-white: #fffae0;
+  --gray: #c4c4c4;
+  --secondary-gray: #dadada;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
